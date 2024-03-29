@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body{
+  background-image: url('https://n1s1.hsmedia.ru/5c/a9/92/5ca9922dcd2f2a2304a3851c058f020f/1585x951_0xac120003_9986014371588926575.jpg');
+  background-size: cover;
+}
+section{
+  width: 100%;
+  height: 100vh;
+}
+.arcade{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.box{
+  background-color:  rgba(0, 0, 0, 0.87);
+  width: 400px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 1px solid red;
+  
+}
+.box img{
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+}
+a{
+  font-size: 25px;
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+a img{
+  width: 120px;
+  margin-top: 20px;
+ }
+ a:hover{
+  color: red;
+}

@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-image: url('https://gas-kvas.com/uploads/posts/2023-02/1675468883_gas-kvas-com-p-igrovoi-fonovii-risunok-34.jpg');
+  background-attachment: fixed;
+  
+  
+}
+.sign{
+  background-color: rgba(0, 0, 0, 0.87);
+  width: 380px;
+  height: 500px;
+  flex-shrink: 0;
+}
+
+input{
+  border-radius: 5px;
+  font-size: 20px;
+  height: 50px;
+  overflow: 0;
+  border: 0;
+ margin-top: 30px;
+ margin-left: 90px;
+  
+ 
+}
+.hom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.ini{
+  border-radius: 5px;
+  background: #e50909c0;
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 50px;
+  margin-left: 62px;
+  margin-top: 50px;
+}
+.ini a{
+  color: #FFF;
+  font-size: 17px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-left: 85px;
+}
+.sign img{
+  width: 100px;
+  margin-left: 130px;
+  margin-top: 40px;
+
+}
+img:hover{
+  transition: 1.4s;
+  transform: rotate(360deg);
+}

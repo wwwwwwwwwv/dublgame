@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+  
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  
+}
+header img{
+  width: 100px;
+  margin-top: 10px;
+ 
+}
+body{
+  background-image: url('https://hdwallpaperim.com/wp-content/uploads/2017/08/26/188346-video_games.jpg');
+  background-size: cover;
+}
+.rac{
+  width: 100%;
+  height: 100vh;
+}
+.cing{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.box{
+  background-color:  rgba(0, 0, 0, 0.87);
+  width: 450px;
+  height: 350px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: 1px double red;
+  overflow: hidden;
+
+  
+}
+.box img{
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+}
+a{
+  font-size: 20px;
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}

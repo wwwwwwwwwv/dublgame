@@ -1,0 +1,237 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+  background-image: url('https://top-fon.com/uploads/posts/2023-01/1674878787_top-fon-com-p-fon-dlya-prezentatsii-pro-geroev-115.jpg');
+}
+header{
+  width: 100%;
+  height: 9vh;
+  background-color: rgba(0, 0, 0, 0.712);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  position: fixed;
+  img:hover{
+    transition: 1.2s;
+    transform: rotate(360deg);
+  }
+
+  input{
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.384);
+    color: #fff;
+    border-radius: 20px;
+    
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    gap:20px ;
+  }
+  img{
+    width: 50px;
+  }
+  nav a{
+    color: #fff;
+    text-decoration: none;
+  
+  }
+  nav a:hover{
+    color: red;
+
+  }
+}
+.home{
+  width: 100%;
+  height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1{
+    color: #fff;
+
+  }
+  .nini{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.849);
+    margin-top: 50px;
+    margin-left: 97px;
+    
+    border: 1px solid red;
+    img{
+      width: 390px;
+      height: 200px;
+    }
+  }
+  .box{
+    width: 600px;
+    height: 670px;
+    background-color: rgba(0, 0, 0, 0.918);
+    padding: 10px;
+    margin-top: 100px;
+    h2{
+      color: #fff;
+      font-size: 18px;
+      margin-top: 50px;
+     
+    }
+  }
+}
+.game{
+  width: 100%;
+  height: 180vh;
+  display: flex;
+  justify-content: space-between;
+  
+ 
+  .gta{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    a{
+      color: #fff;
+      padding: 20px ;
+      text-decoration:none;
+      font-size: 25px;
+      
+      
+    }
+    
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+      
+    }
+  }
+  .fit{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    a{
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 25px;
+
+    }
+    
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+      
+    }
+  }
+  
+}
+.boe{
+  width: 100%;
+  display: grid;
+  grid-template-columns:50% 50%;
+  gap: 50px;
+  overflow: hidden;
+  margin-left: 175px;
+  display: grid;
+  overflow: hidden;
+
+  .batl{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    
+    a{
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+  }
+  .portal{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    
+    a{
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+  }
+  .war{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    a{
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+  }
+  .csg{
+    width: 350px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 10px;
+    overflow: hidden;
+    a{
+      color: #fff;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 25px;
+    }
+    img{
+      width: 300px;
+      height: 200px;
+      margin-top: 20px;
+      margin-left: 25px;
+    }
+  }
+  
+}
+.boe img:hover{
+  transform: scale(1.2);
+  transition: 0.5s ease;
+}
+
